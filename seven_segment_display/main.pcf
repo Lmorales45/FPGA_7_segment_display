@@ -1,0 +1,20 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sun Oct 25 15:41:26 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clock_100Mhz" LOCATE = SITE "V10" LEVEL 1;
+COMP "LED_out<0>" LOCATE = SITE "C6" LEVEL 1;
+COMP "LED_out<1>" LOCATE = SITE "D6" LEVEL 1;
+COMP "LED_out<2>" LOCATE = SITE "C5" LEVEL 1;
+COMP "LED_out<3>" LOCATE = SITE "C4" LEVEL 1;
+COMP "LED_out<4>" LOCATE = SITE "A4" LEVEL 1;
+COMP "LED_out<5>" LOCATE = SITE "B4" LEVEL 1;
+COMP "LED_out<6>" LOCATE = SITE "A3" LEVEL 1;
+COMP "Anode_Activate<0>" LOCATE = SITE "B2" LEVEL 1;
+COMP "Anode_Activate<1>" LOCATE = SITE "A2" LEVEL 1;
+COMP "reset" LOCATE = SITE "M16" LEVEL 1;
+COMP "Anode_Activate<2>" LOCATE = SITE "B3" LEVEL 1;
+NET "clock_100Mhz_BUFGP/IBUFG" PERIOD = 10 ns HIGH 50%;
+SCHEMATIC END;
+
